@@ -1,4 +1,9 @@
-# bioRxiv/medRxiv → 日本語翻訳＆HTML生成 GUI
+# TransRxiv
+
+**作者**: 紫波レント / Roent Shiba  
+**ライセンス**: CC BY-NC-SA 4.0 
+
+## 概要
 
 bioRxiv/medRxiv の **details API** から取得した各プレプリントの **title / abstract** を、ローカルの **LM Studio（OpenAI 互換 API）** で日本語訳し、整理された **HTML** に出力するデスクトップ GUI ツールです。日付・カテゴリ・DOI ごとにファイルを階層化、日付・カテゴリ・月次・年次のインデックスも自動生成します。
 
@@ -221,7 +226,19 @@ server, date, period, base_dir, lm_url, lm_model, keywords, mode, timestamp
 
 ---
 
-## 連絡
+## ライセンス
 
-機能追加・不具合報告・要望は Issue でご連絡ください。
-（例: 起動時に `setting.txt` を読み取って GUI に反映、月=暦月/年=暦年に沿ったフェッチ、GUI から月次/年次ログを直接開くボタンの追加など対応可能です）
+このプロジェクトは **CC BY-NC-SA 4.0** の下で公開します。
+帰属: 紫波レント / Roent Shiba
+
+**短い表示例（LICENSE ファイルに追記してください）**:
+
+```
+Copyright (c) Roent Shiba (紫波レント)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
+```
+
+---
+
