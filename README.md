@@ -237,3 +237,10 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
 ```
 
 ---
+
+## 注釈
+
+出力した結果を公開する事は推奨しないが、公開する場合は利用者個人の責任の下、bioRxiv/medRxivのコンテンツ毎のライセンスに従うこと。
+
+---
+
