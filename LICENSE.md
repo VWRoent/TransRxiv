@@ -13,7 +13,7 @@ You are free to:
 Under the following terms:
   • Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
     You should attribute as follows (or reasonably similar):
-      TransCYPlate — © 2025 Roent Shiba (紫波レント). Licensed under CC BY-NC-SA 4.0.
+      TransRxiv — © 2025 Roent Shiba (紫波レント). Licensed under CC BY-NC-SA 4.0.
     Include a link to: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
   • NonCommercial — You may not use the material for commercial purposes.
@@ -35,7 +35,8 @@ Disclaimer:
   or in connection with the software or the use or other dealings in the software.
 
 Attribution example (recommended):
-  TransCYPlate — © 2025 Roent Shiba (紫波レント). Licensed under CC BY-NC-SA 4.0.
+  TransRxiv — © 2025 Roent Shiba (紫波レント). Licensed under CC BY-NC-SA 4.0.
   https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 If you redistribute or publish copies, please keep the above copyright notice and the license notice intact.
+
