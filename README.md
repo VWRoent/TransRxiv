@@ -7,7 +7,7 @@
 
 bioRxiv/medRxiv の **details API** から取得した各プレプリントの **title / abstract** を、ローカルの **LM Studio（OpenAI 互換 API）** で日本語訳し、整理された **HTML** に出力するデスクトップ GUI ツールです。日付・カテゴリ・DOI ごとにファイルを階層化、日付・カテゴリ・月次・年次のインデックスも自動生成します。
 
-> スクリプト本体: `biorxiv_gui.py`（Python/Tkinter）
+> スクリプト本体: `TransRxiv_gui.py`（Python/Tkinter）
 
 ---
 
@@ -54,6 +54,8 @@ bioRxiv/medRxiv の **details API** から取得した各プレプリントの *
 
 ## 依存・動作環境
 
+* LM Studio
+  * `openai/gpt-oss-20b`
 * Python **3.9+**
 * ライブラリ
 
@@ -71,8 +73,8 @@ pip install tkcalendar
 
 ## 使い方
 
-1. **LM Studio** を起動し、**OpenAI 互換サーバ**（Local Server）を `http://127.0.0.1:1234` で有効化
-   例: モデル `openai/gpt-oss-20b` をロード（GUI から変更可）
+1. **LM Studio** を起動し、DeveloperからLocal Serverを `http://127.0.0.1:1234` で有効化
+   推奨: モデル `openai/gpt-oss-20b` をロード（GUI から変更可）
 2. スクリプト実行:
 
    ```bash
@@ -213,12 +215,6 @@ server, date, period, base_dir, lm_url, lm_model, keywords, mode, timestamp
 
 ---
 
-## ライセンス
-
-プロジェクトのライセンスはリポジトリ方針に合わせて設定してください（例: MIT）。README への追記もお忘れなく。
-
----
-
 ## 謝辞
 
 * bioRxiv / medRxiv の公開 API に感謝します
@@ -241,4 +237,3 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
 ```
 
 ---
-
